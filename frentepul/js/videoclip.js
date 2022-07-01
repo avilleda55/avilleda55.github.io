@@ -27,8 +27,8 @@ const selectVid = (elItem) => {
     
     let prevIframe = prevItem.querySelector("iframe");
     let currIframe = elItem.querySelector("iframe");
-    currIframe.src = currIframe.src.replace("autoplay=0", "autoplay=1");
-    prevIframe.src = prevIframe.src.replace("autoplay=1", "autoplay=0");
+    //currIframe.src = currIframe.src.replace("autoplay=0", "autoplay=1");
+    //prevIframe.src = prevIframe.src.replace("autoplay=1", "autoplay=0");
   }
 };
 
